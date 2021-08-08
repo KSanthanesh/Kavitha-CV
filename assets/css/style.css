@@ -22,6 +22,24 @@
     background-color: #064f61;
 }
 
+/*----------------------------------------------margin, paddings and texts */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
 /*----------------------------------------------Headings */
 header {
     margin: 0;
@@ -65,6 +83,9 @@ header {
     font-size: 14px;
     padding: 0;
 }
+#nav {
+    margin: 0;
+}
 
 .menuitem {
     height: 120px;
@@ -98,5 +119,14 @@ header {
 /*----------------------------------------------Hover.css */
 .hvr-sweep-to-bottom:before {
     background:  rgba(0, 0, 0, 0.2);
-    line-height: 120px;
+    height: 120px;
+}
+
+/*----------------------------------------------Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
